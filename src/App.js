@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import Logo from "./images/logo.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="main flex">
+        <div className="sidebar w-[240px] bg-white h-screen">
+          <div className="logo flex justify-center items-center h-[70px]">
+            <img src={Logo} className="h-[28px]" alt="" />
+          </div>
+          <div className="sidemenu">
+            <ul className="menu">
+              <li className="px-[25px] py-[12px] text-[13px]">Menu</li>
+              <li className="has-menu">
+                <a
+                  className="hover:bg-red-200 px-[25px] py-[12px] block"
+                  href=""
+                >
+                  Dashboard
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="content">content</div>
+      </div>
     </div>
   );
 }
