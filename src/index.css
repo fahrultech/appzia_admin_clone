@@ -9,10 +9,25 @@ body {
   color: #9fa2a7;
 }
 
-.sidemenu ul.menu li.has-menu a {
+.sidemenu ul.menu li.has-menu > a {
   color: #2a323c;
 }
 
-.sidemenu ul.menu li.has-menu a:hover {
+.sidemenu ul.menu li.has-menu > a.active {
+  color: #ffffff !important;
+  background-color: #04a2b3 !important;
+}
+
+.sidemenu ul.menu li.has-menu > a:hover {
   background-color: #f2f2f2;
+}
+
+li.has-menu ul li a {
+  display: block;
+  padding: 10px 25px 10px 55px;
+  color: rgba(42, 50, 60, 0.8);
+}
+
+li.has-menu ul li a:hover {
+  color: #2a323c;
 }

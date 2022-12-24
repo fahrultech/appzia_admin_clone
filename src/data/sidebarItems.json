@@ -1,0 +1,77 @@
+[
+  {
+    "title" : "Dashboard",
+    "name" : "dashboard",
+    "submenu" : false,
+    "icon" : "mdi-home"
+  },
+  {
+    "title" : "UI Elements",
+    "name" : "ui-elements",
+    "submenu" : true,
+    "submenuItems" : [
+      {
+        "name" : "Components",
+        "link" : "/components"
+      },
+      {
+        "name" : "Buttons",
+        "link" : "/buttons"
+      },
+      {
+        "name" : "Panels",
+        "link" : "/panels"
+      },
+      {
+        "name" : "Tabs & Accordions",
+        "link" : "/tabs-accordion"
+      },
+      {
+        "name" : "Modals",
+        "link" : "/modals"
+      },
+      {
+        "name" : "Progress Bar",
+        "link" : "/progress-bar"
+      },
+      {
+        "name" : "Alerts",
+        "link" : "/alerts"
+      },
+      {
+        "name" : "Sweet Alert",
+        "link" : "/sweet-alerts"
+      },
+      {
+        "name" : "Grid",
+        "link" : "/grid"
+      }
+    ],
+    "icon" : "mdi-album"
+  },
+  {
+    "title" : "Forms",
+    "name" : "form",
+    "submenu" : true,
+    "submenuItems" : [
+      {
+        "name" : "General Elements",
+        "link" : "/general-elements"
+      },
+      {
+        "name" : "Form Validations",
+        "link" : "/form-validation"
+      },
+      {
+        "name" : "Advanced Form",
+        "link" : "/advanced-form"
+      },
+      {
+        "name" : "WYSIWYG Editor",
+        "link" : "/wysiwyg-editor"
+      }
+     
+    ],
+    "icon" : "mdi-layers"
+  }
+]
