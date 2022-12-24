@@ -12,12 +12,24 @@ function App() {
           <div className="sidemenu">
             <ul className="menu">
               <li className="px-[25px] py-[12px] text-[13px]">Menu</li>
-              <li className="has-menu">
+              <li className="has-menu text-[15px]">
                 <a
-                  className="hover:bg-red-200 px-[25px] py-[12px] block"
+                  className="hover:bg-red-200 px-[25px] py-[12px] block space-x-3"
                   href=""
                 >
-                  Dashboard
+                   <i className="text-[18px] mdi mdi-home"></i>
+                   <span>Dashboard</span>
+                  
+                </a>
+              </li>
+              <li className="has-menu">
+                <a
+                  className="hover:bg-red-200 px-[25px] py-[12px] block space-x-3"
+                  href=""
+                >
+                   <i className="text-[18px] mdi mdi-album"></i>
+                   <span>UI Elements</span>
+                  
                 </a>
               </li>
             </ul>
