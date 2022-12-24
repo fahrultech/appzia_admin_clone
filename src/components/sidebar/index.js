@@ -8,8 +8,6 @@ const Sidebar = () => {
     menuOriginalState[item.name] = false;
   });
 
-  const baseHeight = 44;
-
   const [smenu, setSmenu] = useState(menuOriginalState);
 
   const submenu = (e) => {
@@ -52,12 +50,14 @@ const Sidebar = () => {
             </Link>
             <ul
               className={`${
-                smenu[sidebar.name] ? `max-h-[1000px]` : `max-h-0`
+                smenu[sidebar.name] ? `max-h-[${sidebar.height}px]` : `max-h-0`
               } transition-all duration-[0.5s] overflow-hidden`}
             >
               {sidebar.submenuItems.map((item, index) => (
                 <li key={index}>
-                  <Link to={item.link}>{item.name}</Link>
+                  <Link className="whitespace-nowrap" to={item.link}>
+                    {item.name}
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -47,7 +47,8 @@
         "link" : "/grid"
       }
     ],
-    "icon" : "mdi-album"
+    "icon" : "mdi-album",
+    "height" : 396
   },
   {
     "title" : "Forms",
@@ -72,6 +73,33 @@
       }
      
     ],
-    "icon" : "mdi-layers"
+    "icon" : "mdi-layers",
+    "height" : 176
+  },
+  {
+    "title" : "Penjualan",
+    "name" : "penjualan",
+    "submenu" : true,
+    "submenuItems" : [
+      {
+        "name" : "General Elements",
+        "link" : "/general-elements"
+      },
+      {
+        "name" : "Form Validations",
+        "link" : "/form-validation"
+      },
+      {
+        "name" : "Advanced Form",
+        "link" : "/advanced-form"
+      },
+      {
+        "name" : "WYSIWYG Editor",
+        "link" : "/wysiwyg-editor"
+      }
+     
+    ],
+    "icon" : "mdi-layers",
+    "height" : 176
   }
 ]
